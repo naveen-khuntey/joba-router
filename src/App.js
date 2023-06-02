@@ -10,6 +10,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Faq from './components/Faq';
 import Contact from './components/Contact';
+import Error from './components/ErrorPage';
 // layouts
 import RootLayout from './layouts/RootLayout';
 import Help from './layouts/HelpLayout';
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
         <Route path='faq' element={<Faq />} />
         <Route path='contact' element={<Contact />} />
       </Route>
+      <Route path="*" element={<Error />} />
     </Route>
   )
 )
