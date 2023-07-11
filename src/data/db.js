@@ -1,5 +1,4 @@
-{
-  "careers": [
+const careers = [
     {
       "id": 1,
       "title": "Senior React Developer",
@@ -43,4 +42,4 @@
       "location": "London, UK"
     }
   ]
-}
+export default careers;
